@@ -7,6 +7,7 @@
 	objects = {
 
 /* Begin PBXBuildFile section */
+		84952F972887F5B9007CC07F /* SwiftUINavigation in Frameworks */ = {isa = PBXBuildFile; productRef = 84952F962887F5B9007CC07F /* SwiftUINavigation */; };
 		84A82ECE28870D3600CE5B36 /* YellowView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 84A82ECD28870D3500CE5B36 /* YellowView.swift */; };
 		84A82ED028870E5000CE5B36 /* YellowViewModel.swift in Sources */ = {isa = PBXBuildFile; fileRef = 84A82ECF28870E5000CE5B36 /* YellowViewModel.swift */; };
 		84A82ED328870FDD00CE5B36 /* YellowCoordinator.swift in Sources */ = {isa = PBXBuildFile; fileRef = 84A82ED228870FDD00CE5B36 /* YellowCoordinator.swift */; };
@@ -51,6 +52,7 @@
 			isa = PBXFrameworksBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				84952F972887F5B9007CC07F /* SwiftUINavigation in Frameworks */,
 				8B7167A82875F0F6009DFFFF /* SwiftUINavigation in Frameworks */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
@@ -211,6 +213,7 @@
 			name = SwiftUINavigationExample;
 			packageProductDependencies = (
 				8B7167A72875F0F6009DFFFF /* SwiftUINavigation */,
+				84952F962887F5B9007CC07F /* SwiftUINavigation */,
 			);
 			productName = SwiftUINavigationExample;
 			productReference = 8B1EB431286B7F9800D755AF /* SwiftUINavigationExample.app */;
@@ -243,6 +246,7 @@
 			packageReferences = (
 				8B1EB442286B7FE300D755AF /* XCRemoteSwiftPackageReference "swiftui-navigation" */,
 				8B7167A62875F0F6009DFFFF /* XCRemoteSwiftPackageReference "swiftui-navigation" */,
+				84952F952887F5B9007CC07F /* XCRemoteSwiftPackageReference "swiftui-navigation" */,
 			);
 			productRefGroup = 8B1EB432286B7F9800D755AF /* Products */;
 			projectDirPath = "";
@@ -486,6 +490,14 @@
 /* End XCConfigurationList section */
 
 /* Begin XCRemoteSwiftPackageReference section */
+		84952F952887F5B9007CC07F /* XCRemoteSwiftPackageReference "swiftui-navigation" */ = {
+			isa = XCRemoteSwiftPackageReference;
+			repositoryURL = "https://github.com/pointfreeco/swiftui-navigation";
+			requirement = {
+				branch = main;
+				kind = branch;
+			};
+		};
 		8B1EB442286B7FE300D755AF /* XCRemoteSwiftPackageReference "swiftui-navigation" */ = {
 			isa = XCRemoteSwiftPackageReference;
 			repositoryURL = "https://github.com/pointfreeco/swiftui-navigation";
@@ -505,6 +517,11 @@
 /* End XCRemoteSwiftPackageReference section */
 
 /* Begin XCSwiftPackageProductDependency section */
+		84952F962887F5B9007CC07F /* SwiftUINavigation */ = {
+			isa = XCSwiftPackageProductDependency;
+			package = 8B7167A62875F0F6009DFFFF /* XCRemoteSwiftPackageReference "swiftui-navigation" */;
+			productName = SwiftUINavigation;
+		};
 		8B7167A72875F0F6009DFFFF /* SwiftUINavigation */ = {
 			isa = XCSwiftPackageProductDependency;
 			package = 8B7167A62875F0F6009DFFFF /* XCRemoteSwiftPackageReference "swiftui-navigation" */;
